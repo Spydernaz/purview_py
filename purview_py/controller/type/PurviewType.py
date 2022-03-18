@@ -26,7 +26,7 @@ class PurviewType(object):
 
     @classmethod
     def getTypeByName(cls, conn, name):
-        urlheaders = {"Content-Type": "application/json", "Authorization": f"Bearer {conn.auth.getToken()}"}
+        urlheaders = {"Content-Type": "application/json", "Authorization": f"Bearer {conn.auth.returnToken()}"}
         response = requests.get(f"{conn.purviewEndpoint}/catalog/api/atlas/v2/types/typedef/name/{name}", headers=urlheaders)
         if response.status_code == 200:
             return cls.getClassByJSON(response.json())
@@ -34,8 +34,8 @@ class PurviewType(object):
             raise Exception(response.status_code, response.json())
 
     @classmethod
-    def getTypeByGUID(cls, guid, conn):
-        urlheaders = {"Content-Type": "application/json", "Authorization": f"Bearer {conn.auth.getToken()}"}
+    def getTypeByGUID(cls, conn, Ty guid):
+        urlheaders = {"Content-Type": "application/json", "Authorization": f"Bearer {conn.auth.returnToken()}"}
         response = requests.get(f"{conn.purviewEndpoint}/catalog/api/atlas/v2/types/typedef/guid/{guid}", headers=urlheaders)
         if response.status_code == 200:
             return cls.getClassByJSON(response.json())
