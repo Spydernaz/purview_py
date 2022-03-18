@@ -1,0 +1,2368 @@
+{
+    "referredEntities": {
+        "7fb3c41a-794e-4801-89a0-aff6f6f6001f": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#ADDRESS_LINE3",
+                "precision": 0,
+                "length": 480,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "ADDRESS_LINE3",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6001f",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "78b2be3a-8f7f-40c5-9c8e-8708e567d29a",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f6001e": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#SITE_ADDRESS_LINE1",
+                "precision": 0,
+                "length": 480,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "SITE_ADDRESS_LINE1",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6001e",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "1df2fe66-79a6-4b7f-b89f-3aae9d43ddbf",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f6001d": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#SHORT_BANK_NAME",
+                "precision": 0,
+                "length": 480,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "SHORT_BANK_NAME",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6001d",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "658e9c80-ea15-444e-bb06-2e6a75f89be7",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f6001c": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#File_Process_Time",
+                "precision": 0,
+                "length": 300,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "File_Process_Time",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6001c",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "4bac8fc9-c850-41ab-a1c8-8006e5f8ee1a",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f6001b": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#COUNTRY",
+                "precision": 0,
+                "length": 120,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "COUNTRY",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6001b",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "a54600fa-7223-4f4c-95da-56be11e25b52",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f6001a": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#SITE_LOCATION_ID",
+                "precision": 0,
+                "length": 500,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "SITE_LOCATION_ID",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6001a",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "9329cc7a-4e76-462f-9383-b0d3a32928f3",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60009": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#ZIP",
+                "precision": 0,
+                "length": 120,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "ZIP",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60009",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "44c5992a-9847-41ed-be3e-06a2a4498b97",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60008": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#HOME_COUNTRY",
+                "precision": 0,
+                "length": 4,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "HOME_COUNTRY",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60008",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "848af7ee-a8eb-4f8e-b3e5-eb2bb4988529",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60018": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#TAX_PAYER_ID",
+                "precision": 0,
+                "length": 40,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "TAX_PAYER_ID",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60018",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "07678c09-60aa-413f-8972-c1199642003f",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60017": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#SITE_STATE",
+                "precision": 0,
+                "length": 120,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "SITE_STATE",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60017",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "83e89a2c-063a-463e-9cb1-7306dc95faaf",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60016": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#END_DATE",
+                "precision": 0,
+                "length": 500,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "END_DATE",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60016",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "78f214fc-cc70-4d47-9ebc-8e8da3607d96",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60015": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 127,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#BatchID",
+                "precision": 19,
+                "length": 8,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "BatchID",
+                "data_type": "bigint",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 127
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60015",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "1f3b3e4e-9c9b-4560-b295-83d9106803d6",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60014": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#SITE_CITY",
+                "precision": 0,
+                "length": 120,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "SITE_CITY",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60014",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "e26b1a94-9d2b-4fcb-b2d6-9b0c92da9e1a",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60013": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#BANK_INSTITUTION_TYPE",
+                "precision": 0,
+                "length": 60,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "BANK_INSTITUTION_TYPE",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60013",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "6f1961bb-842f-404f-94f1-8f11a6012c05",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60012": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#SITE_ADDRESS_LINE2",
+                "precision": 0,
+                "length": 480,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "SITE_ADDRESS_LINE2",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60012",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "6ae60d5f-610b-481a-8d95-38b9f631801a",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60011": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#File_Creation_Time",
+                "precision": 0,
+                "length": 300,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "File_Creation_Time",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60011",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "104c1679-7be4-462c-942b-bd5bb3d6bfdc",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60010": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#SITE_ADDRESS_LINE4",
+                "precision": 0,
+                "length": 480,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "SITE_ADDRESS_LINE4",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60010",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "7067e341-aac6-412f-9ce9-f3a28b4b7ed6",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f6000f": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#SITE_ADDRESS_LINE3",
+                "precision": 0,
+                "length": 480,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "SITE_ADDRESS_LINE3",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6000f",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "177e5261-15f0-4315-8bd7-2046c709e088",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f6000e": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#STATE",
+                "precision": 0,
+                "length": 120,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "STATE",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6000e",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "a79c8180-fa35-4e82-ad6a-6221c5bb5f68",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f6000d": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#SITE_COUNTY",
+                "precision": 0,
+                "length": 120,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "SITE_COUNTY",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6000d",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "c69f4907-37ad-4c0c-8dfc-bc5f436917f2",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f6000c": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#ADDRESS_LINE1",
+                "precision": 0,
+                "length": 480,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "ADDRESS_LINE1",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6000c",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "d46d64af-cb55-4ff1-b2de-f2ea2c3ff23b",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f6000b": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#BANK_NAME_ALT",
+                "precision": 0,
+                "length": 640,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "BANK_NAME_ALT",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6000b",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "fe9d016a-1565-4bbe-bd79-138743f996bb",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f6000a": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#DESCRIPTION",
+                "precision": 0,
+                "length": 4000,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "DESCRIPTION",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6000a",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "838df392-67d3-4724-8d61-cf72650402d5",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60019": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#BANK_NUMBER",
+                "precision": 0,
+                "length": 60,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "BANK_NUMBER",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60019",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "3121a975-4ee6-4a2c-85f5-a9bb78a72812",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60007": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#ADDRESS_LINE2",
+                "precision": 0,
+                "length": 480,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "ADDRESS_LINE2",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60007",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "7e1fc5ac-e8a6-4f5c-a6b0-08ac6df58873",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60006": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#ADDRESS_LINE4",
+                "precision": 0,
+                "length": 480,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "ADDRESS_LINE4",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60006",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "adf5abcb-0e0f-445b-a8fc-8fe083f8df59",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60005": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#SITE_ZIP",
+                "precision": 0,
+                "length": 120,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "SITE_ZIP",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60005",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "56f1fbfd-91ca-41d3-93f0-edb4be4447f5",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60004": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#SITE_COUNTRY",
+                "precision": 0,
+                "length": 120,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "SITE_COUNTRY",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60004",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "9c3d862f-24d0-4f45-95f6-f0eed2513a42",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60003": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#SITE_PROVINCE",
+                "precision": 0,
+                "length": 120,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "SITE_PROVINCE",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60003",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "ef934dfc-9334-458b-9940-68a77b700432",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60002": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#BANK_PARTY_ID",
+                "precision": 0,
+                "length": 500,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "BANK_PARTY_ID",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60002",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "8e722bca-97f1-4fae-ae56-971295427b71",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60001": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#PROVINCE",
+                "precision": 0,
+                "length": 120,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "PROVINCE",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60001",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "6c44c84a-519b-4852-9aee-7b5f7457ab10",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60023": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#START_DATE",
+                "precision": 0,
+                "length": 500,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "START_DATE",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60023",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "8c07b778-3d5c-4f16-b55c-523b64d8d30a",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60022": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#PK_ID",
+                "precision": 0,
+                "length": 500,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "PK_ID",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60022",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "41d76cb2-0981-4dc2-9e5f-360617aacee3",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60021": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#CITY",
+                "precision": 0,
+                "length": 120,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "CITY",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60021",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "910edd46-111f-45af-9b74-a831c4f814c3",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        },
+        "7fb3c41a-794e-4801-89a0-aff6f6f60020": {
+            "typeName": "azure_synapse_dedicated_sql_column",
+            "attributes": {
+                "owner": None,
+                "userTypeId": 231,
+                "columnEncryptionKeyDatabaseName": None,
+                "replicatedTo": None,
+                "replicatedFrom": None,
+                "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V#BANK_NAME",
+                "precision": 0,
+                "length": 720,
+                "encryptionType": 0,
+                "columnEncryptionKeyId": 0,
+                "description": None,
+                "scale": 0,
+                "isXmlDocument": "false",
+                "isMasked": "false",
+                "encryptionTypeDesc": None,
+                "xmlCollectionId": 0,
+                "isHidden": "false",
+                "name": "BANK_NAME",
+                "data_type": "nvarchar",
+                "encryptionAlgorithmName": None,
+                "systemTypeId": 231
+            },
+            "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60020",
+            "status": "ACTIVE",
+            "createdBy": "ServiceAdmin",
+            "updatedBy": "ServiceAdmin",
+            "createTime": 1647223520362,
+            "updateTime": 1647223520362,
+            "version": 0,
+            "source": "DataScan",
+            "collectionId": "euwxctptdfapw01",
+            "relationshipAttributes": {
+                "schema": [],
+                "inputToProcesses": [],
+                "attachedSchema": [],
+                "meanings": [],
+                "outputFromProcesses": [],
+                "table": {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+                    "typeName": "azure_synapse_dedicated_sql_table",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CE_BANKS_V",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "8a3ec8ae-2e38-4d4f-956a-7837909dc42e",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            }
+        }
+    },
+    "entity": {
+        "typeName": "azure_synapse_dedicated_sql_table",
+        "attributes": {
+            "owner": None,
+            "modifiedTime": 1645785088000,
+            "replicatedTo": None,
+            "replicatedFrom": None,
+            "createTime": 1645785088000,
+            "qualifiedName": "mssql://euwxctptdfwsa01.sql.azuresynapse.net/euwxctptdfass01/ext/CE_BANKS_V",
+            "name": "CE_BANKS_V",
+            "description": None,
+            "principalId": 0,
+            "objectType": "U "
+        },
+        "lastModifiedTS": "1",
+        "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60000",
+        "status": "ACTIVE",
+        "createdBy": "ServiceAdmin",
+        "updatedBy": "ServiceAdmin",
+        "createTime": 1647223520362,
+        "updateTime": 1647223520362,
+        "version": 0,
+        "source": "DataScan",
+        "sourceDetails": {
+            "ScanResourceId": "datasources/autoGen_46844E0DDD0EF8F4B05E249FB7858CEA/scans/autoGen_32986268A1A4889117217D207BAA0C53",
+            "ScanLastModifiedAt": "2022-03-14T01:59:37.1048672Z",
+            "ScanRuleSetResourceId": "scanrulesets/AzureSynapseSQL",
+            "ScanRuleSetLastModifiedAt": "2020-12-02T00:55:25.2847266Z",
+            "__schemaModifiedBy": "DataScan",
+            "__schemaModifiedTime": 1647223520362
+        },
+        "collectionId": "euwxctptdfapw01",
+        "relationshipAttributes": {
+            "schema": [],
+            "inputToProcesses": [],
+            "dbSchema": {
+                "guid": "07fbde05-390e-47c0-9b06-e5c95127037f",
+                "typeName": "azure_synapse_dedicated_sql_schema",
+                "entityStatus": "ACTIVE",
+                "displayText": "ext",
+                "relationshipType": "azure_synapse_sql_schema_tables",
+                "relationshipGuid": "a35b66a8-f17c-434e-9952-8c8328598566",
+                "relationshipStatus": "ACTIVE",
+                "relationshipAttributes": {
+                    "typeName": "azure_synapse_sql_schema_tables"
+                }
+            },
+            "columns": [
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6000c",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "ADDRESS_LINE1",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "d46d64af-cb55-4ff1-b2de-f2ea2c3ff23b",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60007",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "ADDRESS_LINE2",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "7e1fc5ac-e8a6-4f5c-a6b0-08ac6df58873",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6001f",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "ADDRESS_LINE3",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "78b2be3a-8f7f-40c5-9c8e-8708e567d29a",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60006",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "ADDRESS_LINE4",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "adf5abcb-0e0f-445b-a8fc-8fe083f8df59",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60013",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "BANK_INSTITUTION_TYPE",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "6f1961bb-842f-404f-94f1-8f11a6012c05",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60020",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "BANK_NAME",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "8a3ec8ae-2e38-4d4f-956a-7837909dc42e",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6000b",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "BANK_NAME_ALT",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "fe9d016a-1565-4bbe-bd79-138743f996bb",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60019",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "BANK_NUMBER",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "3121a975-4ee6-4a2c-85f5-a9bb78a72812",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60002",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "BANK_PARTY_ID",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "8e722bca-97f1-4fae-ae56-971295427b71",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60015",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "BatchID",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "1f3b3e4e-9c9b-4560-b295-83d9106803d6",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60021",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "CITY",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "910edd46-111f-45af-9b74-a831c4f814c3",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6001b",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "COUNTRY",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "a54600fa-7223-4f4c-95da-56be11e25b52",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6000a",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "DESCRIPTION",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "838df392-67d3-4724-8d61-cf72650402d5",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60016",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "END_DATE",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "78f214fc-cc70-4d47-9ebc-8e8da3607d96",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60011",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "File_Creation_Time",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "104c1679-7be4-462c-942b-bd5bb3d6bfdc",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6001c",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "File_Process_Time",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "4bac8fc9-c850-41ab-a1c8-8006e5f8ee1a",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60008",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "HOME_COUNTRY",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "848af7ee-a8eb-4f8e-b3e5-eb2bb4988529",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60022",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "PK_ID",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "41d76cb2-0981-4dc2-9e5f-360617aacee3",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60001",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "PROVINCE",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "6c44c84a-519b-4852-9aee-7b5f7457ab10",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6001d",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "SHORT_BANK_NAME",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "658e9c80-ea15-444e-bb06-2e6a75f89be7",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6001e",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "SITE_ADDRESS_LINE1",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "1df2fe66-79a6-4b7f-b89f-3aae9d43ddbf",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60012",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "SITE_ADDRESS_LINE2",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "6ae60d5f-610b-481a-8d95-38b9f631801a",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6000f",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "SITE_ADDRESS_LINE3",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "177e5261-15f0-4315-8bd7-2046c709e088",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60010",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "SITE_ADDRESS_LINE4",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "7067e341-aac6-412f-9ce9-f3a28b4b7ed6",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60014",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "SITE_CITY",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "e26b1a94-9d2b-4fcb-b2d6-9b0c92da9e1a",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60004",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "SITE_COUNTRY",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "9c3d862f-24d0-4f45-95f6-f0eed2513a42",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6000d",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "SITE_COUNTY",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "c69f4907-37ad-4c0c-8dfc-bc5f436917f2",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6001a",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "SITE_LOCATION_ID",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "9329cc7a-4e76-462f-9383-b0d3a32928f3",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60003",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "SITE_PROVINCE",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "ef934dfc-9334-458b-9940-68a77b700432",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60017",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "SITE_STATE",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "83e89a2c-063a-463e-9cb1-7306dc95faaf",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60005",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "SITE_ZIP",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "56f1fbfd-91ca-41d3-93f0-edb4be4447f5",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60023",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "START_DATE",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "8c07b778-3d5c-4f16-b55c-523b64d8d30a",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f6000e",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "STATE",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "a79c8180-fa35-4e82-ad6a-6221c5bb5f68",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60018",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "TAX_PAYER_ID",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "07678c09-60aa-413f-8972-c1199642003f",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                },
+                {
+                    "guid": "7fb3c41a-794e-4801-89a0-aff6f6f60009",
+                    "typeName": "azure_synapse_dedicated_sql_column",
+                    "entityStatus": "ACTIVE",
+                    "displayText": "ZIP",
+                    "relationshipType": "azure_synapse_sql_table_columns",
+                    "relationshipGuid": "44c5992a-9847-41ed-be3e-06a2a4498b97",
+                    "relationshipStatus": "ACTIVE",
+                    "relationshipAttributes": {
+                        "typeName": "azure_synapse_sql_table_columns"
+                    }
+                }
+            ],
+            "attachedSchema": [],
+            "meanings": [],
+            "outputFromProcesses": []
+        }
+    }
+}
