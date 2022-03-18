@@ -34,7 +34,7 @@ class PurviewType(object):
             raise Exception(response.status_code, response.json())
 
     @classmethod
-    def getTypeByGUID(cls, conn, Ty guid):
+    def getTypeByGUID(cls, conn, guid):
         urlheaders = {"Content-Type": "application/json", "Authorization": f"Bearer {conn.auth.returnToken()}"}
         response = requests.get(f"{conn.purviewEndpoint}/catalog/api/atlas/v2/types/typedef/guid/{guid}", headers=urlheaders)
         if response.status_code == 200:
