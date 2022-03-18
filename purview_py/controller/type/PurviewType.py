@@ -1,11 +1,12 @@
 from purview_py.controller.type.Attribute import PurviewAttribute, PurviewRelationshipAttribute
 from datetime import datetime
-import requests, json, uuid
+import requests, json, uuid, pprint
 
 
 class PurviewType(object):
     
     def __init__(self, category, name, serviceType, superTypes, subTypes=[], guid=str(uuid.uuid4()), createdBy="purview_py", updatedBy="purview_py", createTime=datetime.now(), updateTime=datetime.now(), version=2, description="", typeVersion="1.0", options={}, lastModifiedTS=None, attributeDefs=[], relationshipAttributeDefs=[], newType=False):
+        self.guid = guid
         self.category = category
         self.createdBy = createdBy
         self.updatedBy = updatedBy
@@ -56,7 +57,10 @@ class PurviewType(object):
         args["attributeDefs"] = tmpAttributes
         args["relationshipAttributeDefs"] = tmpRelAttributes
 
-        t = cls(*args, newType=False)
+        pp = pprint.PrettyPrinter(indent=4)
+        pp.pprint(args)
+
+        t = cls(**args, newType=False)
         return t
 
         

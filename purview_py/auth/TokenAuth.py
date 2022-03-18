@@ -11,6 +11,8 @@ class TokenAuth(object):
 
         self.TOKEN_ENDPOINT = f"https://login.microsoftonline.com/{TENANT_ID}/oauth2/token"
 
+        self.fetchToken()
+
     def fetchToken(self):
         urlheaders = {"Content-Type": "application/x-www-form-urlencoded"}
         urldata = {

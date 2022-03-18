@@ -2,7 +2,7 @@
 
 class PurviewRelationshipAttribute(object):
 
-    def __init__(self, name, typeName, relationshipTypeName, cardinality, valuesMinCount, valuesMaxCount, isOptional=True, isUnique=False, isIndexable=False, includeInNotification=False, isLegacyAttribute=False):
+    def __init__(self, name, typeName, relationshipTypeName, cardinality, valuesMinCount, valuesMaxCount, constraints=[], isOptional=True, isUnique=False, isIndexable=False, includeInNotification=False, isLegacyAttribute=False):
         self.name = name
         self.typeName = typeName
         self.relationshipTypeName = relationshipTypeName
