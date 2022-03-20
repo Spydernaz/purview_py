@@ -1,29 +1,36 @@
 
+class Attribute(object):
+    def __init__(self):
+        pass
 
-class PurviewRelationshipAttribute(object):
+class PurviewRelationshipAttribute(Attribute):
 
     def __init__(self, name, typeName, relationshipTypeName, cardinality, valuesMinCount, valuesMaxCount, constraints=[], isOptional=True, isUnique=False, isIndexable=False, includeInNotification=False, isLegacyAttribute=False):
-        self.name = name
-        self.typeName = typeName
-        self.relationshipTypeName = relationshipTypeName
-        self.cardinality = cardinality
-        self.valuesMinCount = valuesMinCount
-        self.valuesMaxCount = valuesMaxCount
-        self.isOptional = isOptional
-        self.isUnique = isUnique
-        self.isIndexable = isIndexable
-        self.includeInNotification = includeInNotification
-        self.isLegacyAttribute = isLegacyAttribute
+        self.name = str(name)
+        self.typeName = str(typeName)
+        self.relationshipTypeName = str(relationshipTypeName)
+        self.cardinality = str(cardinality)
+        self.valuesMinCount = int(valuesMinCount)
+        self.valuesMaxCount = int(valuesMaxCount)
+        self.isOptional = bool(isOptional)
+        self.isUnique = bool(isUnique)
+        self.isIndexable = bool(isIndexable)
+        self.includeInNotification = bool(includeInNotification)
+        self.isLegacyAttribute = bool(isLegacyAttribute)
 
-class PurviewAttribute(object):
+    # def get_attr_dict
+    
 
-    def __init__(self, name, typename, cardinality, valuesMinCount, valuesMaxCount, isOptional=True, isUnique=False, isIndexable=False, includeInNotification=False):
-        self.name = name
-        self.typename = typename
-        self.cardinality = cardinality
-        self.valuesMinCount = valuesMinCount
-        self.valuesMaxCount = valuesMaxCount
-        self.isOptional = isOptional
-        self.isUnique = isUnique
-        self.isIndexable = isIndexable
-        self.includeInNotification = includeInNotification
+class PurviewAttribute(Attribute):
+
+    def __init__(self, name, typeName, cardinality, valuesMinCount, valuesMaxCount, isOptional=True, isUnique=False, isIndexable=False, includeInNotification=False, isLegacyAttribute=False):
+        self.name = str(name)
+        self.typeName = str(typeName)
+        self.cardinality = str(cardinality)
+        self.valuesMinCount = int(valuesMinCount)
+        self.valuesMaxCount = int(valuesMaxCount)
+        self.isOptional = bool(isOptional)
+        self.isUnique = bool(isUnique)
+        self.isIndexable = bool(isIndexable)
+        self.includeInNotification = bool(includeInNotification)
+        self.isLegacyAttribute = bool(isLegacyAttribute)

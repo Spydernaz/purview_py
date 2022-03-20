@@ -11,9 +11,9 @@ class TokenAuth(object):
 
         self.TOKEN_ENDPOINT = f"https://login.microsoftonline.com/{TENANT_ID}/oauth2/token"
 
-        self.fetchToken()
+        self.fetch_token()
 
-    def fetchToken(self):
+    def fetch_token(self):
         urlheaders = {"Content-Type": "application/x-www-form-urlencoded"}
         urldata = {
             "grant_type": "client_credentials",
@@ -28,10 +28,10 @@ class TokenAuth(object):
         else:
             raise Exception(request.status_code, request.text)
     
-    def returnToken(self):
+    def return_token(self):
         return self.TOKEN
 
-    def refreshToken(self):
+    def refresh_token(self):
         # TODO
         pass
 
