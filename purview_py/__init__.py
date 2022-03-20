@@ -7,5 +7,7 @@ An extension module to facilitate API Models and functionality.
 """
 # name = "OWLPy"
 from .auth.TokenAuth import TokenAuth
-# from .controller.entity import PurviewEntity
-# from .controller.type import PurviewType
+from .conn.Connection import PurviewConnection
+from .controller.Controller import PurviewController
+from .controller.type.PurviewType import PurviewType
+from .controller.type.Attribute import PurviewAttribute, PurviewRelationshipAttribute

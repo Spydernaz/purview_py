@@ -1,17 +1,329 @@
-{"category": "ENTITY", "guid": "46e7cd3b-9eed-ee40-0083-3bdd0c3e9bb3", "createdBy": "admin", "updatedBy": "admin", "createTime": 1615787943486, "updateTime": 1615787943857, "version": 2, "name": "DataSet", "description": "DataSet", "typeVersion": "1.2", "serviceType": "atlas_core", "lastModifiedTS": "2", "attributeDefs": [], "superTypes": ["Asset"
-    ], "subTypes": ["azure_mariadb_view_column", "azure_sql_dw_column", "sap_hana_view", "aws_rds_mysql_table", "oracle_view", "looker_join", "hive_view_column", "hive_column", "xml_element", "azure_sql_dw_view", "sap_bw_hybrid_provider", "azure_blob_path", "sap_bw_aggregate_cube", "oracle_package", "sap_bw_query_view", "powerbi_dataflow", "sap_s4hana_view", "db2_table_column", "sap_bw_key_figure", "schema", "rdbms_foreign_key", "looker_measure", "azure_file_share", "azure_table_property", "db2_view", "azure_sql_mi_view_column", "sap_s4hana_table_field", "sap_bw_field", "looker_field", "rdbms_instance", "sap_hana_stored_procedure_result_set", "sap_bw_data_packet_characteristic", "sap_s4hana_table", "snowflake_stream_column", "erwin_view", "sap_bw_characteristic", "erwin_parameter", "column", "sap_bw_data_store_object", "looker_filter", "mongodb_view", "aws_rds_postgresql_view", "looker_table_layout", "snowflake_parameter", "oracle_parameter_dataset", "rdbms_index", "azure_mariadb_view", "bigquery_view_column", "mssql_table", "powerbi_column", "azure_synapse_serverless_sql_view", "sap_hana_stored_procedure_result_set_column", "sap_bw_info_set_query", "azure_datalake_gen1_path", "powerbi_dataset", "azure_synapse_dedicated_sql_table", "snowflake_stored_procedure_result_set_column", "teradata_view_column", "falcon_feed", "looker_view", "jms_topic", "azure_sql_dw_view_column", "azure_sql_dw_table", "sap_bw_query", "sap_ecc_table_field", "aws_rds_mysql_table_column", "azure_table", "aws_rds_sql_table", "sap_hana_parameter_dataset", "aws_rds_sql_view", "azure_cognitive_search_index_field", "oracle_stored_procedure_result_set", "mssql_view_column", "sap_bw_navigation_attribute", "json_property", "bigquery_view", "azure_sql_mi_table", "aws_rds_postgresql_view_column", "oracle_parameter", "mysql_table_column", "sap_bw_multi_provider", "snowflake_view", "azure_mysql_view_column", "sap_bw_classic_info_set", "teradata_parameter", "sap_bw_unit_of_measurement", "azure_data_explorer_column", "sap_ecc_view", "azure_file_directory", "rdbms_db", "looker_query_field", "salesforce_field", "xml_attribute", "sap_bw_time_characteristic", "bigquery_table", "teradata_parameter_dataset", "looker_dimension", "azure_data_explorer_table", "azure_sql_column", "oracle_view_column", "mysql_table", "looker_parameter", "aws_rds_postgresql_table", "mysql_view", "hive_view", "erwin_view_attribute", "erwin_attribute", "azure_cognitive_search_index", "hive_table", "postgresql_table", "snowflake_table_column", "sap_hana_parameter", "azure_sql_view_column", "rdbms_column", "bigquery_table_column", "powerbi_dashboard", "looker_query", "sap_hana_table_column", "tabular_schema", "sap_ecc_table", "sap_s4hana_view_field", "cassandra_table", "aws_s3_bucket", "aws_s3_object", "sap_bw_open_hub_destination", "avro_type", "Contract", "azure_mysql_table_column", "fs_path", "azure_sql_view", "snowflake_view_column", "parquet_schema_element", "sap_ecc_view_field", "snowflake_table", "mssql_column", "aws_s3_pseudo_dir", "snowflake_parameter_dataset", "sqoop_dbdatastore", "teradata_table_column", "teradata_stored_procedure_result_set", "azure_sql_table", "azure_blob_container", "azure_mariadb_table", "aws_rds_sql_table_column", "aws_rds_postgresql_table_column", "powerbi_report", "oracle_table", "kafka_topic", "azure_synapse_dedicated_sql_column", "postgresql_view", "azure_mysql_view", "cassandra_materialized_view", "azure_datalake_gen2_filesystem", "azure_synapse_serverless_sql_view_column", "Model", "snowflake_stored_procedure_result_set", "azure_sql_mi_view", "ads_org_dataset", "azure_synapse_serverless_sql_table", "delimited_text_column", "azure_file", "azure_synapse_dedicated_sql_view_column", "azure_synapse_serverless_sql_column", "postgresql_table_column", "sap_bw_time_dimension", "erwin_trigger", "looker_chart_layout", "sap_bw_info_set", "sap_bw_info_object", "azure_datalake_gen2_path", "azure_postgresql_table_column", "oracle_type", "hbase_column_family", "mssql_view", "azure_cosmosdb_container", "oracle_stored_procedure_result_set_column", "snowflake_stream", "sap_bw_aggregation_level", "sap_bw_dimension", "azure_postgresql_view_column", "resource_set", "mongodb_collection", "aws_rds_sql_view_column", "aws_s3_v2_base", "powerbi_table", "json_schema", "cassandra_view_column", "sap_bw_info_cube", "mysql_view_column", "teradata_view", "azure_sql_mi_column", "teradata_stored_procedure_result_set_column", "azure_postgresql_view", "cassandra_table_column", "azure_mysql_table", "oracle_type_attribute", "db2_table", "aws_rds_mysql_view", "hbase_column", "hbase_table", "rdbms_table", "aws_rds_mysql_view_column", "teradata_table", "sap_hana_view_column", "azure_synapse_dedicated_sql_view", "db2_trigger", "db2_view_column", "erwin_entity", "sap_bw_currency", "postgresql_view_column", "sap_bw_query_condition", "azure_mariadb_table_column", "sap_hana_table", "salesforce_object", "azure_postgresql_table", "oracle_table_column"
-    ], "relationshipAttributeDefs": [
-        {"name": "schema", "typeName": "array<avro_schema>", "isOptional": True, "cardinality": "SET", "valuesMinCount": -1, "valuesMaxCount": -1, "isUnique": False, "isIndexable": False, "includeInNotification": False, "relationshipTypeName": "avro_schema_associatedEntities", "isLegacyAttribute": False
+{
+    "category": "ENTITY",
+    "guid": "78f7f4c0-1118-4e85-ece1-7e8d2bf3369b",
+    "createdBy": "admin",
+    "updatedBy": "admin",
+    "createTime": 1615787944156,
+    "updateTime": 1615787944656,
+    "version": 2,
+    "name": "hive_table",
+    "description": "hive_table",
+    "typeVersion": "1.2",
+    "serviceType": "hive",
+    "options": {
+        "schemaElementsAttribute": "columns"
+    },
+    "lastModifiedTS": "2",
+    "attributeDefs": [
+        {
+            "name": "createTime",
+            "typeName": "date",
+            "isOptional": True,
+            "cardinality": "SINGLE",
+            "valuesMinCount": 0,
+            "valuesMaxCount": 1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False
         },
-        {"name": "inputToProcesses", "typeName": "array<Process>", "isOptional": True, "cardinality": "SET", "valuesMinCount": -1, "valuesMaxCount": -1, "isUnique": False, "isIndexable": False, "includeInNotification": False, "relationshipTypeName": "dataset_process_inputs", "isLegacyAttribute": False
+        {
+            "name": "lastAccessTime",
+            "typeName": "date",
+            "isOptional": True,
+            "cardinality": "SINGLE",
+            "valuesMinCount": 0,
+            "valuesMaxCount": 1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False
         },
-        {"name": "attachedSchema", "typeName": "array<schema>", "isOptional": True, "cardinality": "SET", "valuesMinCount": -1, "valuesMaxCount": -1, "isUnique": False, "isIndexable": False, "includeInNotification": False, "relationshipTypeName": "dataset_attached_schemas", "isLegacyAttribute": False
+        {
+            "name": "comment",
+            "typeName": "string",
+            "isOptional": True,
+            "cardinality": "SINGLE",
+            "valuesMinCount": 0,
+            "valuesMaxCount": 1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False
         },
-        {"name": "meanings", "typeName": "array<AtlasGlossaryTerm>", "isOptional": True, "cardinality": "SET", "valuesMinCount": -1, "valuesMaxCount": -1, "isUnique": False, "isIndexable": False, "includeInNotification": False, "relationshipTypeName": "AtlasGlossarySemanticAssignment", "isLegacyAttribute": False
+        {
+            "name": "retention",
+            "typeName": "int",
+            "isOptional": True,
+            "cardinality": "SINGLE",
+            "valuesMinCount": 0,
+            "valuesMaxCount": 1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False
         },
-        {"name": "outputFromProcesses", "typeName": "array<Process>", "isOptional": True, "cardinality": "SET", "valuesMinCount": -1, "valuesMaxCount": -1, "isUnique": False, "isIndexable": False, "includeInNotification": False, "relationshipTypeName": "process_dataset_outputs", "isLegacyAttribute": False
+        {
+            "name": "aliases",
+            "typeName": "array<string>",
+            "isOptional": True,
+            "cardinality": "SET",
+            "valuesMinCount": 0,
+            "valuesMaxCount": 2147483647,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False
         },
-        {"name": "tabular_schema", "typeName": "tabular_schema", "isOptional": True, "cardinality": "SINGLE", "valuesMinCount": -1, "valuesMaxCount": -1, "isUnique": False, "isIndexable": False, "includeInNotification": False, "relationshipTypeName": "tabular_schema_datasets", "isLegacyAttribute": False
+        {
+            "name": "parameters",
+            "typeName": "map<string,string>",
+            "isOptional": True,
+            "cardinality": "SINGLE",
+            "valuesMinCount": 0,
+            "valuesMaxCount": 1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False
+        },
+        {
+            "name": "viewOriginalText",
+            "typeName": "string",
+            "isOptional": True,
+            "cardinality": "SINGLE",
+            "valuesMinCount": 0,
+            "valuesMaxCount": 1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False
+        },
+        {
+            "name": "viewExpandedText",
+            "typeName": "string",
+            "isOptional": True,
+            "cardinality": "SINGLE",
+            "valuesMinCount": 0,
+            "valuesMaxCount": 1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False
+        },
+        {
+            "name": "tableType",
+            "typeName": "string",
+            "isOptional": True,
+            "cardinality": "SINGLE",
+            "valuesMinCount": 0,
+            "valuesMaxCount": 1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False
+        },
+        {
+            "name": "temporary",
+            "typeName": "boolean",
+            "isOptional": True,
+            "cardinality": "SINGLE",
+            "valuesMinCount": 0,
+            "valuesMaxCount": 1,
+            "isUnique": False,
+            "isIndexable": True,
+            "includeInNotification": False
+        }
+    ],
+    "superTypes": [
+        "DataSet"
+    ],
+    "subTypes": [],
+    "relationshipAttributeDefs": [
+        {
+            "name": "schema",
+            "typeName": "array<avro_schema>",
+            "isOptional": True,
+            "cardinality": "SET",
+            "valuesMinCount": -1,
+            "valuesMaxCount": -1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False,
+            "relationshipTypeName": "avro_schema_associatedEntities",
+            "isLegacyAttribute": False
+        },
+        {
+            "name": "inputToProcesses",
+            "typeName": "array<Process>",
+            "isOptional": True,
+            "cardinality": "SET",
+            "valuesMinCount": -1,
+            "valuesMaxCount": -1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False,
+            "relationshipTypeName": "dataset_process_inputs",
+            "isLegacyAttribute": False
+        },
+        {
+            "name": "columns",
+            "typeName": "array<hive_column>",
+            "isOptional": True,
+            "cardinality": "SET",
+            "valuesMinCount": -1,
+            "valuesMaxCount": -1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False,
+            "constraints": [
+                {
+                    "type": "ownedRef"
+                }
+            ],
+            "relationshipTypeName": "hive_table_columns",
+            "isLegacyAttribute": True
+        },
+        {
+            "name": "unique_constraints",
+            "typeName": "array<hive_unique_constraint>",
+            "isOptional": True,
+            "cardinality": "SET",
+            "valuesMinCount": -1,
+            "valuesMaxCount": -1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False,
+            "constraints": [
+                {
+                    "type": "ownedRef"
+                }
+            ],
+            "relationshipTypeName": "hive_table_unique_constraints",
+            "isLegacyAttribute": False
+        },
+        {
+            "name": "attachedSchema",
+            "typeName": "array<schema>",
+            "isOptional": True,
+            "cardinality": "SET",
+            "valuesMinCount": -1,
+            "valuesMaxCount": -1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False,
+            "relationshipTypeName": "dataset_attached_schemas",
+            "isLegacyAttribute": False
+        },
+        {
+            "name": "primary_key_constraint",
+            "typeName": "hive_unique_constraint",
+            "isOptional": True,
+            "cardinality": "SINGLE",
+            "valuesMinCount": -1,
+            "valuesMaxCount": -1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False,
+            "relationshipTypeName": "hive_table_primary_key_constraint",
+            "isLegacyAttribute": False
+        },
+        {
+            "name": "meanings",
+            "typeName": "array<AtlasGlossaryTerm>",
+            "isOptional": True,
+            "cardinality": "SET",
+            "valuesMinCount": -1,
+            "valuesMaxCount": -1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False,
+            "relationshipTypeName": "AtlasGlossarySemanticAssignment",
+            "isLegacyAttribute": False
+        },
+        {
+            "name": "tabular_schema",
+            "typeName": "tabular_schema",
+            "isOptional": True,
+            "cardinality": "SINGLE",
+            "valuesMinCount": -1,
+            "valuesMaxCount": -1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False,
+            "relationshipTypeName": "tabular_schema_datasets",
+            "isLegacyAttribute": False
+        },
+        {
+            "name": "sd",
+            "typeName": "hive_storagedesc",
+            "isOptional": True,
+            "cardinality": "SINGLE",
+            "valuesMinCount": -1,
+            "valuesMaxCount": -1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False,
+            "constraints": [
+                {
+                    "type": "ownedRef"
+                }
+            ],
+            "relationshipTypeName": "hive_table_storagedesc",
+            "isLegacyAttribute": True
+        },
+        {
+            "name": "partitionKeys",
+            "typeName": "array<hive_column>",
+            "isOptional": True,
+            "cardinality": "SET",
+            "valuesMinCount": -1,
+            "valuesMaxCount": -1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False,
+            "constraints": [
+                {
+                    "type": "ownedRef"
+                }
+            ],
+            "relationshipTypeName": "hive_table_partitionkeys",
+            "isLegacyAttribute": True
+        },
+        {
+            "name": "foreign_keys",
+            "typeName": "array<hive_foreign_key>",
+            "isOptional": True,
+            "cardinality": "SET",
+            "valuesMinCount": -1,
+            "valuesMaxCount": -1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False,
+            "constraints": [
+                {
+                    "type": "ownedRef"
+                }
+            ],
+            "relationshipTypeName": "hive_table_foreign_keys",
+            "isLegacyAttribute": False
+        },
+        {
+            "name": "db",
+            "typeName": "hive_db",
+            "isOptional": True,
+            "cardinality": "SINGLE",
+            "valuesMinCount": -1,
+            "valuesMaxCount": -1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False,
+            "relationshipTypeName": "hive_table_db",
+            "isLegacyAttribute": True
+        },
+        {
+            "name": "outputFromProcesses",
+            "typeName": "array<Process>",
+            "isOptional": True,
+            "cardinality": "SET",
+            "valuesMinCount": -1,
+            "valuesMaxCount": -1,
+            "isUnique": False,
+            "isIndexable": False,
+            "includeInNotification": False,
+            "relationshipTypeName": "process_dataset_outputs",
+            "isLegacyAttribute": False
         }
     ]
 }
