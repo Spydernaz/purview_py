@@ -9,5 +9,5 @@ An extension module to facilitate API Models and functionality.
 from .auth.TokenAuth import TokenAuth
 from .conn.Connection import PurviewConnection
 from .controller.Controller import PurviewController
-from .controller.type.PurviewType import PurviewType
-from .controller.type.Attribute import PurviewAttribute, PurviewRelationshipAttribute
+from .controller.type.PurviewType import PurviewTypeDef, PurviewEntityTypeDef
+from .controller.type.Attribute import PurviewAttributeDef, PurviewRelationshipAttributeDef

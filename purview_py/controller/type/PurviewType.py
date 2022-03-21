@@ -1,11 +1,15 @@
-from purview_py.controller.type.Attribute import PurviewAttribute, PurviewRelationshipAttribute
+from purview_py.controller.type.Attribute import PurviewAttributeDef, PurviewRelationshipAttributeDef
 from datetime import datetime
 import requests, json, uuid, pprint
 
 
-class PurviewType(object):
+class PurviewTypeDef(object):
+    def __init__(self):
+        pass
+
+class PurviewEntityTypeDef(PurviewTypeDef):
     
-    def __init__(self, category, name, superTypes, subTypes=[], guid=str(uuid.uuid4()), createdBy="purview_py", updatedBy="purview_py", createTime=datetime.now(), updateTime=datetime.now(), version=2, description="", typeVersion="1.0", options={}, lastModifiedTS=None, attributeDefs=[], relationshipAttributeDefs=[], serviceType=None, newType=False):
+    def __init__(self, category, name, superTypes=[], subTypes=[], guid=str(uuid.uuid4()), createdBy="purview_py", updatedBy="purview_py", createTime=datetime.now(), updateTime=datetime.now(), version=2, description="", typeVersion="1.0", options={}, lastModifiedTS=None, attributeDefs=[], relationshipAttributeDefs=[], serviceType=None, dateFormatter=None, newType=False):
         self.guid = guid
         self.category = category
         self.createdBy = createdBy
@@ -50,16 +54,13 @@ class PurviewType(object):
         
         args = dict(apiresp)
         tmpAttributes = []
-        tmpRelAttributes = []
-
-        # pp = pprint.PrettyPrinter(indent=4)
-        
+        tmpRelAttributes = []        
 
         for attr in args["attributeDefs"]:
             # pp.pprint(attr)
-            tmpAttributes.append(PurviewAttribute(**attr))
+            tmpAttributes.append(PurviewAttributeDef(**attr))
         for attr in args["relationshipAttributeDefs"]:
-            tmpRelAttributes.append(PurviewRelationshipAttribute(**attr))
+            tmpRelAttributes.append(PurviewRelationshipAttributeDef(**attr))
 
         args["attributeDefs"] = tmpAttributes
         args["relationshipAttributeDefs"] = tmpRelAttributes

@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name = 'purview_py',
-    version = '0.0.10',
+    version = '0.0.11',
     license='MIT',
     description = 'Python wrapper for MSFT Purview and Apache Atlas APIs',
     author = 'Nathaniel Vala',

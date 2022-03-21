@@ -1,9 +1,9 @@
 
-class Attribute(object):
+class AttributeDef(object):
     def __init__(self):
         pass
 
-class PurviewRelationshipAttribute(Attribute):
+class PurviewRelationshipAttributeDef(AttributeDef):
 
     def __init__(self, name, typeName, relationshipTypeName, cardinality, valuesMinCount, valuesMaxCount, constraints=[], isOptional=True, isUnique=False, isIndexable=False, includeInNotification=False, isLegacyAttribute=False):
         self.name = str(name)
@@ -17,11 +17,9 @@ class PurviewRelationshipAttribute(Attribute):
         self.isIndexable = bool(isIndexable)
         self.includeInNotification = bool(includeInNotification)
         self.isLegacyAttribute = bool(isLegacyAttribute)
-
-    # def get_attr_dict
     
 
-class PurviewAttribute(Attribute):
+class PurviewAttributeDef(AttributeDef):
 
     def __init__(self, name, typeName, cardinality, valuesMinCount, valuesMaxCount, isOptional=True, isUnique=False, isIndexable=False, includeInNotification=False, isLegacyAttribute=False):
         self.name = str(name)
